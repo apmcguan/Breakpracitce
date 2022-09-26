@@ -16,15 +16,7 @@ int main() {
   //load all data in while loop
   while (inFile >> dataTemp)
     {
-       
       
-      inFile >> dataTemp;
-      //cout << dataTemp <<endl;
-      if (dataTemp>=0)
-      {
-        sumData = sumData + dataTemp;
-      counter ++;
-        
       
         
       }
