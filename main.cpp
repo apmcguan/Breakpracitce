@@ -5,16 +5,36 @@ using namespace std;
 
 int main() {
   //declare variables
-  int NumberData1;
+  int dataTemp;
+  int sumData = 0;
+  int counter = 0;
+  
   //load input file 
   ifstream inFile; //declare stream variable
-  inFile.open(" NumberData1.txt");
+  inFile.open("NumberData1.txt");
 
   //load all data in while loop
-  while (!inFile.eof())
+  while (inFile >> dataTemp)
     {
-      //inFile >> NumberData1;
-      //cout << NumberData1 <<endl;
+       
+      
+      inFile >> dataTemp;
+      //cout << dataTemp <<endl;
+      if (dataTemp>=0)
+      {
+        sumData = sumData + dataTemp;
+      counter ++;
+        
+      
+        
+      }
+      else{
+       
+        
+        
+        
+        
+      }
     }
   
   
