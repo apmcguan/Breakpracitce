@@ -29,10 +29,14 @@ int main() {
         
       }
       else{
-       
+       cout<<"negative value encountered of "<<dataTemp<<"."<<endl;
+        cout<<"Will not use rest of the data.."<<endl;
+        cout<<"the sum of vaild data is: "<<sumData<<endl;
+        cout<< "the number of vaild data points is: "<< counter<<endl;
+        cout<< "The average of teh vaild datat is "<<(static_cast<double>(sumData) / counter)<<endl;
+        break;
         
-        
-        
+      
         
       }
     }
